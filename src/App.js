@@ -44,9 +44,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={() => this.buttonClickHandler("rock")}>Rock</button>
-        <button onClick={() => this.buttonClickHandler('paper')}>Paper</button>
-        <button onClick={() => this.buttonClickHandler('scissor')}>Scissor</button>
+        <button className='button' onClick={() => this.buttonClickHandler("rock")}>Rock</button>
+        <button className='button paper' onClick={() => this.buttonClickHandler('paper')}>Paper</button>
+        <button className='button scissor' onClick={() => this.buttonClickHandler('scissor')}>Scissor</button>
+        {/* <button style={{ "color": "chocolate", "fontSize": "80px" }} onClick={() => this.buttonClickHandler("rock")}>Rock</button>
+        <button style={{ "color": "white", "fontSize": "80px" }} onClick={() => this.buttonClickHandler('paper')}>Paper</button>
+        <button style={{ "color": "red", "fontSize": "80px" }} onClick={() => this.buttonClickHandler('scissor')}>Scissor</button> */}
       </div>
     );
   }

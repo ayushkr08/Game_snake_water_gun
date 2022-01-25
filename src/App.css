@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.button {
+  border: none;
+  color: rgb(240, 12, 12);
+  padding: 27px 51px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 80px;
+}
+.paper {color: #4CAF50;} 
+.scissor {color: #008CBA;}
